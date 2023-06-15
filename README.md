@@ -1,15 +1,15 @@
 ## Hyperbolic Manifolds
 Hi there! this is my mini-repo on hyperbolic manifolds. Manifolds realized here are:
-    - Poincare Ball
-    ...
+    * Poincare Ball
+    * ...
 
 
 At the moment the following modules are realized aat the basis of `torch`:
-    - Linear
-    - Embedding
-    - Hyperplane (module that outputs unnormalized logits)
-    - Wrapper for custom callable function to map them onto the manifold (called `HyperbolicWrapper`)
-    ...
+    * Linear
+    * Embedding
+    * Hyperplane (module that outputs unnormalized logits)
+    * Wrapper for custom callable function to map them onto the manifold (called `HyperbolicWrapper`)
+    * ...
 
 ## Example
 ```python
