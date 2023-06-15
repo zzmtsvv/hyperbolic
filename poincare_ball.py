@@ -14,7 +14,7 @@ class PoincareBall(Manifold):
                  conformal_factor: float = 1.0,
                  eps: float = 1e-5) -> None:
         if conformal_factor == 0.0:
-            raise TypeError("c=0 means we're using Euclidean Geometry. Use torch.Tensor")
+            raise TypeError("c=0 means we're using Euclidean Geometry. Try another value :)")
         
         self.conf_factor = conformal_factor
         self.sqrt_c = sqrt(conformal_factor)
