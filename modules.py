@@ -63,8 +63,6 @@ class HyperbolicEmbedding(nn.Module):
         self.manifold = manifold
         self.scale_grad_by_freq = scale_grad_by_freq
 
-        self.parameters()
-
         self.weight = HyperbolicParameter(torch.Tensor(num_embeddings, embedding_dim), requires_grad=True)
         self.init_parameters()
     
